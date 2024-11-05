@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    height: 5rem;
+     line-height: 5rem; /*for text set verticaly in centre */
+    color: white;
+    background-color: black;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.image{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /* to set the image */
+    border-radius: 50%;
+}
+
+.image:hover{
+    /* opacity: 0.5; yani us chez ko blur kreny key ley */
+    cursor: pointer;
+    background-color: black;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 2rem;
+}
+
+#user , #comp{
+    font-size: 3rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
